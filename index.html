@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Блог компании Яндекс</title>
+    <title>Форма</title>
 </head>
-
-<body style="margin-left:2%;">
-<a href="index4.html">ДОМАШКА ФОРМА</a>
+<body>
+    <form action="#" method="get">
+        <label for="login">
+      Ваш логин <br>
+      <input id="login" type="text" name="login" value="">
+    </label>
+        <label for="letters">
+      <input type="checkbox" name="letters" value="" checked="">
+      Подписаться на рассылку
+    </label><br><br>
+        <label for="password">Пароль<br>
+            <input type="password" name="password" id="password" value="">
+          </label><br><br>
+        <label for="information">
+              Информация о себе: <br>
+              <textarea name="information" rows="8" cols="80"></textarea><br><br>
+            </label>
+        <button type="button" name="button">Зарегистрироваться</button>
+    </form>
 </body>
-
 </html>
